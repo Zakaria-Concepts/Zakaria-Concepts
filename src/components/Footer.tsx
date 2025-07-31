@@ -37,27 +37,29 @@ const Footer = () => {
           <div className="grid lg:grid-cols-6 gap-8">
             {/* Company Info */}
             <div className="lg:col-span-2">
-              <img 
-                src="/lovable-uploads/742b0002-49f6-4df0-a01b-f3bf6bdab861.png" 
-                alt="Zakaria Concepts" 
-                className="h-12 w-auto mb-6"
-              />
+                <div className="flex justify-start lg:justify-center mb-6">
+                <img 
+                  src="/lovable-uploads/logo.png" 
+                  alt="Zakaria Concepts" 
+                  className="h-28 w-28 mx-auto"
+                />
+                </div>
               <p className="text-muted-foreground mb-6 text-sm leading-relaxed">
-                Leading global distribution company connecting businesses with quality products across textiles, food, personal care, and technology sectors.
+              Leading global distribution company connecting businesses with quality products across textiles, food, personal care, and technology sectors.
               </p>
               
               {/* Newsletter Signup */}
               <div className="space-y-3">
-                <h4 className="font-semibold text-foreground">Stay Updated</h4>
-                <div className="flex gap-2">
-                  <Input 
-                    placeholder="Enter your email"
-                    className="flex-1 bg-muted border-border"
-                  />
-                  <Button size="sm" className="bg-primary hover:bg-primary/90">
-                    <Mail className="w-4 h-4" />
-                  </Button>
-                </div>
+              <h4 className="font-semibold text-foreground">Stay Updated</h4>
+              <div className="flex gap-2">
+                <Input 
+                placeholder="Enter your email"
+                className="flex-1 bg-muted border-border"
+                />
+                <Button size="sm" className="bg-primary hover:bg-primary/90">
+                <Mail className="w-4 h-4" />
+                </Button>
+              </div>
               </div>
             </div>
 

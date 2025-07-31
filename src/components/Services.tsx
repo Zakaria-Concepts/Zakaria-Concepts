@@ -7,7 +7,7 @@ const Services = () => {
       icon: Truck,
       title: 'Logistics & Distribution',
       description: 'Streamlined supply chain management with reliable delivery networks across multiple continents.',
-      image: 'https://images.unsplash.com/photo-1566576912321-d58ddd7a6088?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
+      image: 'https://media.istockphoto.com/id/1279002529/photo/long-haul-semi-truck-on-a-rural-western-usa-interstate-highway.jpg?s=2048x2048&w=is&k=20&c=evW3xkIOmoe3-b58N53MgvlUfH4I_KqOwGLadMEJ7yo='
     },
     {
       icon: Globe,

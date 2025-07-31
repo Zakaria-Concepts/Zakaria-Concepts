@@ -36,9 +36,9 @@ const Header = () => {
           {/* Logo */}
           <div className="flex-shrink-0">
             <img 
-              src="/lovable-uploads/742b0002-49f6-4df0-a01b-f3bf6bdab861.png" 
+              src="/lovable-uploads/logo.png "
               alt="Zakaria Concepts" 
-              className="h-10 lg:h-12 w-auto"
+              className="h-20 lg:h-20 w-auto"
             />
           </div>
 
