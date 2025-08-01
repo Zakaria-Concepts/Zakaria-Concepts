@@ -36,7 +36,7 @@ const Header = () => {
           {/* Logo */}
           <div className="flex-shrink-0">
             <img 
-              src="/lovable-uploads/logo.png "
+              src="/assets/logo.png "
               alt="Zakaria Concepts" 
               className="h-20 lg:h-20 w-auto"
             />

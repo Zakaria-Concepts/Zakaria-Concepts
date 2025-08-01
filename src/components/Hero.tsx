@@ -6,10 +6,14 @@ const Hero = () => {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
       <div className="w-full h-full bg-gradient-to-br from-background via-secondary/20 to-background">
-        <div
-        className="absolute inset-0 bg-cover bg-center opacity-20"
-        style={{ backgroundImage: "url('public/lovable-uploads/pexels-maxfrancis-2246476.jpg')" }}
-        ></div>
+        <img
+        src="/assets/pexels-maxfrancis-2246476.jpg"
+        alt=""
+        className="absolute inset-0 w-full h-full object-cover object-center opacity-20"
+        loading="eager"
+        draggable={false}
+        style={{ pointerEvents: 'none', userSelect: 'none' }}
+        />
       </div>
       </div>
 
