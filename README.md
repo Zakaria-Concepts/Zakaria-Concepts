@@ -46,7 +46,6 @@ Zackaria Company is a web application designed to showcase our services and solu
 - HTML5
 - CSS3
 - JavaScript
-- [Add frameworks/libraries as needed]
 
 ## Contributing
 
