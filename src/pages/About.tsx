@@ -1,4 +1,4 @@
-import { ArrowRight, Globe, Heart, Shield, Lightbulb, Leaf, Users } from 'lucide-react';
+import { ArrowRight, Globe, Heart, Shield, Lightbulb, Leaf, Users, Mail, Linkedin } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
@@ -45,6 +45,33 @@ const About = () => {
     { name: 'Health Food', description: 'Nutritious products that promote wellness across diverse communities.' },
     { name: 'Technology', description: 'Innovative solutions bridging the gap between cutting-edge manufacturers and end users.' },
     { name: 'Personal Care', description: 'Premium beauty and wellness products that enhance daily life.' }
+  ];
+
+  const teamMembers = [
+    {
+      name: 'Zakaria Al-Hassan',
+      role: 'President & Founder',
+      description: 'Visionary leader with 15+ years building strategic partnerships across global markets.',
+      image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80'
+    },
+    {
+      name: 'Sarah Mitchell',
+      role: 'Operations Director',
+      description: 'Expert in international logistics and supply chain optimization across three continents.',
+      image: 'https://images.unsplash.com/photo-1494790108755-2616b612b47c?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80'
+    },
+    {
+      name: 'Marcus Chen',
+      role: 'Business Development Lead',
+      description: 'Specialist in manufacturer relationships and market expansion in North America and Asia.',
+      image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80'
+    },
+    {
+      name: 'Amira Kassem',
+      role: 'Regional Manager - Middle East',
+      description: 'Deep expertise in Middle Eastern markets with a focus on sustainable business practices.',
+      image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80'
+    }
   ];
 
   return (
@@ -164,8 +191,57 @@ const About = () => {
         </div>
       </section>
 
-      {/* Call to Connect */}
+      {/* Our Team */}
       <section className="py-16 lg:py-24">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-6xl mx-auto">
+            <div className="text-center mb-16">
+              <h2 className="font-heading text-3xl lg:text-5xl font-bold text-foreground mb-6">
+                Our Team
+              </h2>
+              <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
+                Meet the passionate people behind Zakaria Concepts.
+              </p>
+            </div>
+
+            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+              {teamMembers.map((member, index) => (
+                <div 
+                  key={index} 
+                  className="group animate-fade-in"
+                  style={{ animationDelay: `${index * 150}ms` }}
+                >
+                  <div className="bg-card border border-border rounded-xl overflow-hidden hover:border-primary/50 transition-all duration-300 group-hover:scale-[1.02] hover:shadow-lg">
+                    <div className="aspect-square overflow-hidden">
+                      <img
+                        src={member.image}
+                        alt={member.name}
+                        className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                      />
+                    </div>
+                    <div className="p-6">
+                      <h3 className="text-xl font-semibold text-foreground mb-2">{member.name}</h3>
+                      <p className="text-primary font-medium mb-3">{member.role}</p>
+                      <p className="text-sm text-muted-foreground leading-relaxed mb-4">{member.description}</p>
+                      <div className="flex gap-3">
+                        <div className="w-8 h-8 bg-primary/10 rounded-full flex items-center justify-center hover:bg-primary/20 transition-colors cursor-pointer">
+                          <Mail className="w-4 h-4 text-primary" />
+                        </div>
+                        <div className="w-8 h-8 bg-primary/10 rounded-full flex items-center justify-center hover:bg-primary/20 transition-colors cursor-pointer">
+                          <Linkedin className="w-4 h-4 text-primary" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Call to Connect */}
+      <section className="py-16 lg:py-24 bg-muted/30">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl mx-auto text-center">
             <div className="bg-gradient-to-r from-primary/10 via-primary/5 to-primary/10 rounded-2xl p-8 lg:p-12">
