@@ -4,17 +4,15 @@ const Hero = () => {
   return (
     <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image */}
-      <div className="absolute inset-0 z-0">
-      <div className="w-full h-full bg-gradient-to-br from-background via-secondary/20 to-background">
+      <div className="absolute inset-0 z-0 w-full h-full bg-gradient-to-br from-background via-secondary/20 to-background">
         <img
         src="/assets/pexels-maxfrancis-2246476.jpg"
         alt=""
         className="absolute inset-0 w-full h-full object-cover object-center opacity-20"
-        loading="eager"
+        loading="lazy"
         draggable={false}
         style={{ pointerEvents: 'none', userSelect: 'none' }}
         />
-      </div>
       </div>
 
       {/* Content */}
