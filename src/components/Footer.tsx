@@ -6,7 +6,7 @@ const Footer = () => {
   const footerLinks = [
     {
       title: 'Company',
-      links: ['About Us', 'Our Services', 'Our Team', 'Careers']
+      links: ['About Us', 'Our Services', 'Philosophy', 'Careers']
     },
     {
       title: 'Services',
