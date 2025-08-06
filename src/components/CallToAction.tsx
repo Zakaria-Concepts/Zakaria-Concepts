@@ -46,29 +46,44 @@ const CallToAction = () => {
             </div>
           </div>
 
-          {/* Contact form preview */}
+          {/* Contact form */}
           <div className="bg-card border border-border rounded-2xl p-8 max-w-2xl mx-auto">
             <h3 className="font-semibold text-xl text-foreground mb-6">Get Started Today</h3>
-            <div className="grid sm:grid-cols-2 gap-4">
-              <div className="bg-muted rounded-lg p-4">
-                <div className="text-sm text-muted-foreground mb-1">Your Name</div>
-                <div className="h-4 bg-muted-foreground/20 rounded"></div>
-              </div>
-              <div className="bg-muted rounded-lg p-4">
-                <div className="text-sm text-muted-foreground mb-1">Company</div>
-                <div className="h-4 bg-muted-foreground/20 rounded"></div>
-              </div>
-              <div className="sm:col-span-2 bg-muted rounded-lg p-4">
-                <div className="text-sm text-muted-foreground mb-1">Message</div>
-                <div className="space-y-2">
-                  <div className="h-4 bg-muted-foreground/20 rounded"></div>
-                  <div className="h-4 bg-muted-foreground/20 rounded w-3/4"></div>
+            <form className="space-y-4">
+              <div className="grid sm:grid-cols-2 gap-4">
+                <div>
+                  <input
+                    type="text"
+                    placeholder="Your Name"
+                    className="w-full px-4 py-3 rounded-lg border border-input bg-background text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition-colors"
+                  />
+                </div>
+                <div>
+                  <input
+                    type="text"
+                    placeholder="Company"
+                    className="w-full px-4 py-3 rounded-lg border border-input bg-background text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition-colors"
+                  />
                 </div>
               </div>
-            </div>
-            <Button className="w-full mt-6 bg-primary hover:bg-primary/90">
-              Send Message
-            </Button>
+              <div>
+                <input
+                  type="email"
+                  placeholder="Email Address"
+                  className="w-full px-4 py-3 rounded-lg border border-input bg-background text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition-colors"
+                />
+              </div>
+              <div>
+                <textarea
+                  placeholder="Tell us about your business needs and how we can help you grow..."
+                  rows={4}
+                  className="w-full px-4 py-3 rounded-lg border border-input bg-background text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition-colors resize-none"
+                />
+              </div>
+              <Button type="submit" className="w-full bg-primary hover:bg-primary/90">
+                Send Message
+              </Button>
+            </form>
           </div>
         </div>
       </div>
