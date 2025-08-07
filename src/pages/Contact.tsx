@@ -106,7 +106,7 @@ const Contact = () => {
 {/* Hero Section */}
 <section
   className="pt-24 pb-16 lg:pt-32 lg:pb-24 bg-cover bg-center bg-no-repeat"
-  style={{ backgroundImage: `url('public/assets/bg.png')` }}
+  style={{ backgroundImage: `url('/assets/bg.png')` }}
 >
   <div className="relative">
     <div className="container mx-auto px-4 sm:px-6 lg:px-8">
