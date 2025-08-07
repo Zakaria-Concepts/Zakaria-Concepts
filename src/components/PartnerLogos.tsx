@@ -2,15 +2,15 @@ import React from 'react';
 
 const logos = [
   {
-    src: 'public/assets/CompanyLogos/galax.png',
+    src: 'assets/CompanyLogos/galax.png',
     alt: 'Company 1',
   },
   {
-    src: 'public/assets/CompanyLogos/stitch.png',
+    src: 'assets/CompanyLogos/stitch.png',
     alt: 'Company 2',
   },
   {
-    src: 'public/assets/logoalt.png',
+    src: 'assets/logoalt.png',
     alt: 'Company 3',
   },
 ];
