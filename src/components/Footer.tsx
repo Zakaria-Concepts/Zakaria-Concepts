@@ -38,11 +38,11 @@ const Footer = () => {
             {/* Company Info */}
             <div className="lg:col-span-2">
                 <div className="flex justify-start lg:justify-center mb-6">
-                <img 
-                  src="/lovable-uploads/logo.png" 
-                  alt="Zakaria Concepts" 
-                  className="h-28 w-28 mx-auto"
-                />
+                  <img 
+                    src="public/assets/logoalt.png" 
+                    alt="Zakaria Concepts" 
+                    className="h-27 lg:h-27 w-auto max-w-[180px] lg:max-w-[220px]"
+                  />
                 </div>
               <p className="text-muted-foreground mb-6 text-sm leading-relaxed">
               Leading global distribution company connecting businesses with quality products across textiles, food, personal care, and technology sectors.

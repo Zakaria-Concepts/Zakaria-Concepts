@@ -5,6 +5,7 @@ import Services from '@/components/Services';
 import GlobalPresence from '@/components/GlobalPresence';
 import CallToAction from '@/components/CallToAction';
 import Footer from '@/components/Footer';
+import PartnerLogos from '@/components/PartnerLogos';
 
 const Index = () => {
   return (
@@ -13,6 +14,7 @@ const Index = () => {
       <Hero />
       <About />
       <Services />
+      <PartnerLogos />
       <GlobalPresence />
       <CallToAction />
       <Footer />
