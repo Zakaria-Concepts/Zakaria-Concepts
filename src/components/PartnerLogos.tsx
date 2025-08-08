@@ -6,7 +6,7 @@ const logos = [
     alt: 'Company 1',
   },
   {
-    src: 'assets/CompanyLogos/stitch.png',
+    src: 'assets/CompanyLogos/stitch.svg',
     alt: 'Company 2',
   },
   {

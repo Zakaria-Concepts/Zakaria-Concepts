@@ -3,21 +3,21 @@ const team = [
   {
     name: 'Sohail Zakaria',
     role: 'CEO',
-    image: 'public/assets/teamphotos/TeamZaksohail.webp',
+    image: 'assets/teamphotos/TeamZaksohail.webp',
     description:
       "Visionary leader with over 15 years of experience forging strategic partnerships between manufacturers and distributors across global markets.",
   },
   {
     name: 'Vanessa',
     role: 'Production quality & operations lead',
-    image: 'public/assets/teamphotos/Teamvanessa.webp',
+    image: 'assets/teamphotos/Teamvanessa.webp',
     description:
       'Expert in quality control and operations, leading processes that ensure product excellence from manufacturing to final delivery.',
   },
   {
     name: 'Karoline',
     role: 'International Sales Intern',
-    image: 'public/assets/teamphotos/Teamkaroline.webp',
+    image: 'assets/teamphotos/Teamkaroline.webp',
     description:
       'Passionate about international trade, supporting business expansion through market analysis and relationship management.',
   },
