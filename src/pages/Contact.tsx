@@ -102,7 +102,6 @@ const Contact = () => {
 
 
 
-      {/* Hero Section */}
 {/* Hero Section */}
 <section
   className="pt-24 pb-16 lg:pt-32 lg:pb-24 bg-cover bg-center bg-no-repeat"
@@ -126,7 +125,7 @@ const Contact = () => {
           Whether you're a manufacturer seeking new markets or a distributor looking for quality partners, we're here to listen, understand your vision, and create opportunities that drive real growth.
         </p>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4 max-w-3xl mx-auto">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-3.3xl mx-auto">
           {benefits.map((benefit, index) => (
             <div key={index} className="flex items-center gap-2 text-sm text-muted-foreground">
               <benefit.icon className="w-4 h-4 text-primary flex-shrink-0" />

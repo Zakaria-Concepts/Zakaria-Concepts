@@ -47,14 +47,14 @@ const ZakariaTeam = () => {
             </h2>
         </div>
 
-        <div className="flex flex-wrap justify-center gap-12">
+        <div className="flex flex-wrap justify-center gap-12 lg:gap-16">
           {team.map((member, index) => (
             <div
               key={index}
-              className="w-full sm:w-80 bg-card border border-border rounded-xl shadow-md p-8 relative animate-fade-in hover:shadow-lg hover:border-primary/50 transition-all duration-300"
+              className="w-full sm:w-80 bg-card border border-border rounded-xl shadow-md p-10 relative animate-fade-in hover:border-primary hover:shadow-lg hover:scale-110 transition-transform duration-500"
               style={{ animationDelay: `${index * 150}ms` }}
             >
-              <div className="absolute -top-16 left-1/2 -translate-x-1/2">
+              <div className="absolute -top-12 left-1/2 -translate-x-1/2">
                 <img
                   src={member.image}
                   alt={member.name}

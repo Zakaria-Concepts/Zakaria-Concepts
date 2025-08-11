@@ -42,19 +42,19 @@ const About = () => {
             </div>
           </div>
 
-          {/* Image */}
-          <div className="relative">
-            <div className="relative overflow-hidden rounded-2xl">
+            {/* Image */}
+            <div className="relative">
+            <div className="relative overflow-hidden rounded-xl">
               <img
-                src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1740&q=80"
-                alt="Global distribution network"
-                className="w-full h-96 lg:h-[500px] object-cover"
+              src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1740&q=80"
+              alt="Global distribution network"
+              className="w-full h-[28rem] lg:h-[32rem] object-cover rounded-2xl shadow-lg"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-background/60 to-transparent"></div>
             </div>
             
             {/* Floating stats card */}
-            <div className="absolute -bottom-6 -left-6 bg-card border border-border rounded-xl p-6 shadow-xl">
+            <div className="absolute -bottom-0 -left-0 bg-card border border-border rounded-xl p-10 shadow-xl">
               <div className="text-center">
                 <div className="text-2xl font-bold text-primary">15+</div>
                 <div className="text-sm text-muted-foreground">Years Experience</div>

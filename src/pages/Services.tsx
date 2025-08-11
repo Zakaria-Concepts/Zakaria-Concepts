@@ -3,6 +3,7 @@ import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import TechSolutionsCTA from '@/components/TechSolutionsCTA';
 
 const Services = () => {
   const servicesSnapshot = [
@@ -64,7 +65,7 @@ const Services = () => {
       icon: Shield,
       title: 'Quality Assurance',
       description: 'Rigorous quality control processes ensuring all products meet international standards and regulatory requirements. Our comprehensive testing and certification programs guarantee product excellence.',
-      image: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+      image: 'https://img.freepik.com/foto-gratis/collaje-control-calidad-estandar_23-2149631023.jpg?semt=ais_hybrid&w=740&q=80',
       features: ['Product testing', 'Certification support', 'Standards compliance', 'Quality monitoring']
     },
     {
@@ -94,28 +95,39 @@ const Services = () => {
     <div className="min-h-screen bg-background">
       <Header />
       
-      {/* Hero Section */}
-      <section className="relative pt-32 pb-20 overflow-hidden">
-        <div 
-          className="absolute inset-0 bg-gradient-to-br from-primary/10 via-background to-primary/5"
-          style={{
-            backgroundImage: `url('https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80')`,
-            backgroundSize: 'cover',
-            backgroundPosition: 'center',
-            backgroundBlendMode: 'overlay'
-          }}
-        />
-        <div className="relative container mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center max-w-4xl mx-auto">
-            <h1 className="font-heading text-4xl lg:text-6xl font-bold text-foreground mb-6 animate-fade-in">
-              All-in-One Solutions for Growth-Driven Brands
-            </h1>
-            <p className="text-xl text-muted-foreground leading-relaxed animate-fade-in" style={{animationDelay: '0.2s'}}>
-              From global sourcing to market entry, we provide comprehensive distribution solutions that help ambitious brands scale across international markets with confidence.
-            </p>
-          </div>
-        </div>
-      </section>
+{/* Hero Section  */}
+<section className="relative min-h-[60vh] lg:min-h-[68vh] flex items-center overflow-hidden">
+  <div
+    aria-hidden
+    className="absolute inset-0 bg-cover bg-center"
+    style={{
+      backgroundImage:
+        "url('https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80')",
+    }}
+  />
+  {/* Dark scrim + brand tint */}
+  <div className="absolute inset-0 bg-gradient-to-b from-black/75 via-black/55 to-black/35" />
+  <div className="absolute inset-0 mix-blend-multiply bg-primary/20" />
+
+  {/* Content */}
+  <div className="relative container mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="max-w-4xl mx-auto text-center">
+      <h1 className="font-heading text-white drop-shadow-[0_2px_12px_rgba(0,0,0,0.5)] text-5xl lg:text-7xl font-bold mb-8 animate-fade-in">
+      All‑in‑One Solutions for Growth‑Driven Brands
+      </h1>
+      <p
+      className="text-xl lg:text-2xl text-white/90 leading-relaxed mb-6 animate-fade-in"
+      style={{ animationDelay: '0.15s' }}
+      >
+      From global sourcing to market entry, we provide comprehensive distribution
+      solutions that help ambitious brands scale across international markets
+      with confidence.
+      </p>
+
+    </div>
+  </div>
+</section>
+
 
       {/* What We Offer - Services Snapshot Grid */}
       <section className="py-20">
@@ -327,52 +339,7 @@ const Services = () => {
       </section>
 
       {/* Tech Solutions */}
-      <section className="py-20 bg-gradient-to-br from-primary/5 to-background">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="max-w-4xl mx-auto text-center">
-            <div className="flex justify-center mb-6">
-              <div className="bg-primary/10 rounded-lg p-4">
-                <Settings className="w-12 h-12 text-primary" />
-              </div>
-            </div>
-            <h2 className="font-heading text-3xl lg:text-4xl font-bold text-foreground mb-6">
-              E-commerce & Tech Solutions That Scale With You
-            </h2>
-            <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-              We help you launch or optimize your Shopify store, ERP systems, fulfillment automation, and more. Our tech advisory services ensure your infrastructure grows alongside your business.
-            </p>
-            <Button 
-              size="lg" 
-              className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-3"
-              onClick={() => window.location.href = '/contact'}
-            >
-              Talk to a Tech Advisor
-            </Button>
-          </div>
-        </div>
-      </section>
-
-      {/* Final CTA */}
-      <section className="py-20 bg-gradient-to-r from-primary to-primary/80">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <div className="max-w-3xl mx-auto">
-            <h2 className="font-heading text-3xl lg:text-4xl font-bold text-primary-foreground mb-6">
-              Let's Build Something Great Together
-            </h2>
-            <p className="text-xl text-primary-foreground/90 mb-8">
-              Ready to scale your business globally? Let's discuss how our comprehensive solutions can accelerate your growth.
-            </p>
-            <Button 
-              size="lg" 
-              variant="secondary"
-              className="bg-background text-foreground hover:bg-background/90 px-8 py-3"
-              onClick={() => window.location.href = '/contact'}
-            >
-              Start Your Journey
-            </Button>
-          </div>
-        </div>
-      </section>
+      <TechSolutionsCTA />
 
       <Footer />
     </div>

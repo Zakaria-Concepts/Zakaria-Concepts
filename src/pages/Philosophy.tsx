@@ -159,26 +159,43 @@ const Philosophy = () => {
     <div className="min-h-screen bg-background">
       <Header />
       
-      {/* Hero Section */}
-      <section className="relative pt-24 pb-16 lg:pt-32 lg:pb-24 overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-background to-secondary/5" />
-        <div className="absolute inset-0 bg-[url('/assets/bg.png')] bg-cover bg-center opacity-5" />
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative">
-          <div className="max-w-4xl mx-auto text-center animate-fade-in">
-            <h1 className="font-heading text-5xl lg:text-7xl font-bold text-foreground mb-6">
-              Built on Trust,
-              <span className="text-primary block"> Powered by Innovation</span>
-            </h1>
-            <p className="text-xl lg:text-2xl text-muted-foreground leading-relaxed mb-12">
-              Discover the philosophy that drives three decades of successful partnerships and strategic growth across global markets.
-            </p>
-            <div className="inline-flex items-center gap-3 bg-card/80 backdrop-blur-sm border border-border rounded-full px-6 py-3 text-primary font-medium">
-              <Shield className="w-6 h-6" />
-              <span>Experience. Excellence. Evolution.</span>
-            </div>
+    {/* Hero Section */}
+    <section className="relative pb-20 lg:pt-32 lg:pb-28 overflow-hidden">
+      {/* Background image layer */}
+      <div
+        className="absolute inset-0 bg-cover bg-center"
+        style={{
+          backgroundImage: `url('/assets/bg2.png')`,
+        }}
+      />
+
+      {/* Gradient overlay */}
+      <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-background to-secondary/5" />
+
+      {/* Optional subtle texture overlay */}
+      <div
+        className="absolute inset-0 bg-[url('/assets/bg.png')] bg-cover bg-center opacity-5"
+        aria-hidden="true"
+      />
+
+      {/* Content */}
+      <div className="relative container mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-4xl pt-7 mx-auto text-center animate-fade-in">
+          <h1 className="font-heading text-5xl lg:text-7xl font-bold text-foreground mb-6">
+            Built on Trust,
+            <span className="text-primary block">Powered by Innovation</span>
+          </h1>
+          <p className="text-xl lg:text-2xl text-muted-foreground leading-relaxed mb-12">
+            Discover the philosophy that drives three decades of successful partnerships and strategic growth across global markets.
+          </p>
+          <div className="inline-flex items-center gap-3 bg-card/80 backdrop-blur-sm border border-border rounded-full px-6 py-3 text-primary font-medium">
+            <Shield className="w-6 h-6" />
+            <span>Experience. Excellence. Evolution.</span>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
+
 
       {/* Strengths Carousel */}
       <section className="py-16 lg:py-24 bg-muted/30" data-scroll-reveal id="strengths">
