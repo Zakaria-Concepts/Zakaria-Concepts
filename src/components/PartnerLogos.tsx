@@ -64,7 +64,7 @@ const PartnerLogosMarquee: React.FC = () => {
 
                 <noscript>
                     <div className="mt-6 flex flex-wrap justify-center gap-12">
-                        <Track />}
+                        <Track />
                     </div>
                 </noscript>
             </div>
