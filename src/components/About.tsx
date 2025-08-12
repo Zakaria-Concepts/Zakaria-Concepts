@@ -56,7 +56,7 @@ const About = () => {
             {/* Floating stats card */}
             <div className="absolute -bottom-0 -left-0 bg-card border border-border rounded-xl p-10 shadow-xl">
               <div className="text-center">
-                <div className="text-2xl font-bold text-primary">15+</div>
+                <div className="text-2xl font-bold text-primary">30+</div>
                 <div className="text-sm text-muted-foreground">Years Experience</div>
               </div>
             </div>

@@ -39,7 +39,7 @@ const Footer = () => {
             <div className="lg:col-span-2">
                 <div className="flex justify-start lg:justify-center mb-6">
                   <img 
-                    src="public/assets/logoalt.png" 
+                    src="/assets/logoalt.png" 
                     alt="Zakaria Concepts" 
                     className="h-27 lg:h-27 w-auto max-w-[180px] lg:max-w-[220px]"
                   />

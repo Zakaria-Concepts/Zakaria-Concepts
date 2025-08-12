@@ -6,6 +6,9 @@ import GlobalPresence from '@/components/GlobalPresence';
 import CallToAction from '@/components/CallToAction';
 import Footer from '@/components/Footer';
 import PartnerLogos from '@/components/PartnerLogos';
+import { WhatWeOffer } from '@/components/Whatweoffer';
+import WhoWeHelp  from '@/components/Whowehelp';
+import WhyZakaria from '@/components/WhyZakaria';
 
 const Index = () => {
   return (
@@ -13,8 +16,17 @@ const Index = () => {
       <Header />
       <Hero />
       <About />
-      <Services />
+
+      <WhatWeOffer />
+
+      <WhoWeHelp />
+
+      <WhyZakaria />
+
+
       <PartnerLogos />
+
+
       <GlobalPresence />
       <CallToAction />
       <Footer />

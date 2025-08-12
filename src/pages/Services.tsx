@@ -4,40 +4,10 @@ import { Button } from '@/components/ui/button';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import TechSolutionsCTA from '@/components/TechSolutionsCTA';
+import { WhatWeOffer } from '@/components/Whatweoffer';
 
 const Services = () => {
-  const servicesSnapshot = [
-    {
-      icon: Lightbulb,
-      title: 'Consulting',
-      description: 'Market strategy, operations, go-to-market planning',
-    },
-    {
-      icon: Search,
-      title: 'Global Sourcing',
-      description: 'Trusted suppliers, cost-optimized procurement',
-    },
-    {
-      icon: Package,
-      title: 'White Label Products',
-      description: 'Ready-to-sell solutions, customized branding',
-    },
-    {
-      icon: Globe,
-      title: 'Distribution',
-      description: 'Entry into U.S., GCC, LATAM markets',
-    },
-    {
-      icon: ShoppingCart,
-      title: 'Product Sales',
-      description: 'Buy direct or collaborate on private label',
-    },
-    {
-      icon: Computer,
-      title: 'Tech Advisory',
-      description: 'E-commerce, automation, integrations',
-    },
-  ];
+
 
   const detailedServices = [
     {
@@ -130,52 +100,9 @@ const Services = () => {
 
 
       {/* What We Offer - Services Snapshot Grid */}
-      <section className="py-20">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="font-heading text-3xl lg:text-4xl font-bold text-foreground mb-6">
-              What We Offer
-            </h2>
-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Comprehensive services designed to accelerate your business growth and market expansion.
-            </p>
-          </div>
+      <WhatWeOffer/>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
-            {servicesSnapshot.map((service, index) => (
-              <Card 
-                key={index} 
-                className="group hover:scale-105 transition-all duration-300 bg-card border-border hover:border-primary/50 hover:shadow-lg cursor-pointer p-6 animate-fade-in"
-                style={{animationDelay: `${index * 0.1}s`}}
-              >
-                <div className="flex items-start space-x-4">
-                  <div className="bg-primary/10 rounded-lg p-3 group-hover:bg-primary/20 transition-colors">
-                    <service.icon className="w-6 h-6 text-primary" />
-                  </div>
-                  <div>
-                    <h3 className="font-semibold text-lg text-foreground mb-2 group-hover:text-primary transition-colors">
-                      {service.title}
-                    </h3>
-                    <p className="text-muted-foreground text-sm">
-                      {service.description}
-                    </p>
-                  </div>
-                </div>
-              </Card>
-            ))}
-          </div>
 
-          <div className="text-center">
-            <Button 
-              size="lg" 
-              className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-3"
-              onClick={() => window.location.href = '/contact'}
-            >
-              See How We Can Help You Grow
-            </Button>
-          </div>
-        </div>
-      </section>
 
       {/* Detailed Service Sections - Cascade Layout */}
       <section className="py-20 bg-muted/20">

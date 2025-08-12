@@ -40,7 +40,8 @@ const PartnerLogosMarquee: React.FC = () => {
     return (
         <section
             aria-label="Partner Logos"
-            className="relative py-10 lg:py-14 overflow-hidden"
+            className="relative py-10 lg:py-14 overflow-hidden bg-muted/30 shadow-xl"
+            
         >
             <div className="absolute inset-0 -z-10 bg-gradient-to-br from-primary/5 via-background to-primary/5" />
             <div className="pointer-events-none absolute inset-0 -z-10 bg-[radial-gradient(60%_60%_at_50%_50%,rgba(0,0,0,0.06)_0%,rgba(0,0,0,0)_60%)]" />

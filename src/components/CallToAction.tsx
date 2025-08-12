@@ -13,9 +13,9 @@ const CallToAction = () => {
             Ready to Work With Us?
           </h2>
           
-          <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-            Partner with Zakaria Concepts for reliable, efficient global distribution solutions. 
-            Let's discuss how we can help grow your business.
+          <p className="text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto">
+            
+            From the concept to the shelf, we help bring your vision to life.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">

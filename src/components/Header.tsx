@@ -29,16 +29,18 @@ const Header = () => {
         isScrolled ? 'bg-background/95 backdrop-blur-md border-b border-border' : 'bg-transparent'
       }`}
     >
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16 lg:h-20">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-1 lg:py-2">
+        <div className="flex items-center justify-between h-20 lg:h-30">
           {/* Logo */}
-          <div className="flex-shrink-0">
-            <img 
-              src="/assets/logo.png "
-              alt="Zakaria Concepts" 
-              className="h-20 lg:h-20 w-auto"
-            />
-          </div>
+        <div className="flex-shrink-0">
+        <a href="/">
+          <img 
+          src="/assets/logo.png"
+          alt="Zakaria Concepts" 
+          className="h-20 lg:h-20 w-auto"
+          />
+        </a>
+        </div>
 
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex space-x-8">
