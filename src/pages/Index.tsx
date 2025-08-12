@@ -9,6 +9,7 @@ import PartnerLogos from '@/components/PartnerLogos';
 import { WhatWeOffer } from '@/components/Whatweoffer';
 import WhoWeHelp  from '@/components/Whowehelp';
 import WhyZakaria from '@/components/WhyZakaria';
+import TechSolutionsHome from '@/components/TechSolutionsHome';
 
 const Index = () => {
   return (
@@ -23,6 +24,7 @@ const Index = () => {
 
       <WhyZakaria />
 
+      <TechSolutionsHome />
 
       <PartnerLogos />
 
