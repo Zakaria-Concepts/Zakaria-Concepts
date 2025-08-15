@@ -139,7 +139,7 @@ const Services = () => {
       <Header />
       
       {/* Hero Section */}
-      <section className="relative min-h-[70vh] flex items-center overflow-hidden">
+<section className="relative min-h-[50vh] lg:min-h-[64vh] flex items-center overflow-hidden">
         <div
           aria-hidden
           className="absolute inset-0 bg-cover bg-center"
@@ -148,7 +148,7 @@ const Services = () => {
               "url('https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80')",
           }}
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-background/95 via-background/80 to-background/60" />
+        <div className="absolute inset-0 bg-gradient-to-br from-primary/10 via-background to-secondary/10" />
         <div className="absolute inset-0 bg-primary/10" />
 
         <div className="relative container mx-auto px-4 sm:px-6 lg:px-8">
@@ -157,7 +157,7 @@ const Services = () => {
               From Vision to Global Reach
             </h1>
             <p 
-              className="text-xl lg:text-2xl text-muted-foreground leading-relaxed mb-8 animate-fade-in max-w-3xl"
+              className="text-xl lg:text-2xl text-white leading-relaxed mb-8 animate-fade-in max-w-3xl"
               style={{ animationDelay: '0.2s' }}
             >
               We help ambitious brands scale confidently into new markets with strategy, sourcing, technology, and execution.
