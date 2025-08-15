@@ -40,16 +40,17 @@ const PartnerLogosMarquee: React.FC = () => {
     return (
         <section
             aria-label="Partner Logos"
-            className="relative py-10 lg:py-14 overflow-hidden bg-muted/30 shadow-xl"
+            className="relative py-16 lg:py-24 overflow-hidden bg-muted/30 shadow-xl"
             
         >
             <div className="absolute inset-0 -z-10 bg-gradient-to-br from-primary/5 via-background to-primary/5" />
             <div className="pointer-events-none absolute inset-0 -z-10 bg-[radial-gradient(60%_60%_at_50%_50%,rgba(0,0,0,0.06)_0%,rgba(0,0,0,0)_60%)]" />
 
             <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-                <h2 className="font-heading text-3xl lg:text-4xl font-bold text-foreground text-center mb-8">
+                {/* <h2 className="font-heading text-3xl lg:text-4xl font-bold text-foreground text-center mb-8">
                     Trusted by <span className="italic">Industry Leaders</span>
-                </h2>
+                </h2> */}
+
 
                 <div className="relative">
                     <div className="pointer-events-none absolute inset-y-0 left-0 w-16 bg-gradient-to-r from-background to-transparent" />

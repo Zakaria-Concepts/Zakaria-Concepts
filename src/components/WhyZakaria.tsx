@@ -3,10 +3,10 @@ import { Button } from "@/components/ui/button";
 import { ShieldCheck, Network, Handshake, Layers } from "lucide-react";
 
 const points = [
-  { icon: ShieldCheck, text: "30+ years of international business experience" },
-  { icon: Network, text: "Trusted supplier and regulatory network" },
-  { icon: Handshake, text: "Transparent, boutique‑style partnerships" },
-  { icon: Layers, text: "Integrated execution + strategic planning" },
+  { icon: ShieldCheck, text: "Decades of international business experience" },
+  { icon: Network, text: "Cross-industry sourcing and compliance know-how" },
+  { icon: Handshake, text: "Strong U.S. & LATAM supply chain network" },
+  { icon: Layers, text: "Personalized, boutique-style partnership approach" },
 ];
 
 const WhyZakaria: React.FC = () => (
@@ -19,7 +19,7 @@ const WhyZakaria: React.FC = () => (
       <div className="grid items-center gap-10 lg:gap-16 lg:grid-cols-2">
         {/* Left: headline + intro copy */}
         <div>
-          <span className="inline-flex px-4 py-1.5 rounded-full bg-primary/10 text-primary text-sm font-medium">
+          <span className="inline-flex px-4 py-1.5 rounded-full bg-primary/10 text-primary text-medium font-medium">
             Why Zakaria Concepts?
           </span>
           <h2
@@ -29,7 +29,7 @@ const WhyZakaria: React.FC = () => (
             Strategy + Execution. Backed by 30+ Years of Experience.
           </h2>
           <p className="mt-4 text-lg text-muted-foreground">
-            We combine seasoned strategy with hands‑on delivery—so plans turn into measurable results.
+          We help brands launch, scale, and thrive through high-quality products, turnkey services, and innovative strategies. With operations in the U.S., Canada, and GCC, our global network and decades of expertise deliver exceptional value—from sourcing and white-label solutions to tech consulting and market entry support.
           </p>
         </div>
 
@@ -42,7 +42,7 @@ const WhyZakaria: React.FC = () => (
                          transition-colors hover:border-primary/40"
             >
               <div className="mt-0.5 shrink-0 rounded-lg p-2 bg-primary/10 text-primary">
-                <Icon className="w-5 h-5" />
+                <Icon className="w-5 h-6" />
               </div>
               <p className="text-foreground/90">{text}</p>
             </div>

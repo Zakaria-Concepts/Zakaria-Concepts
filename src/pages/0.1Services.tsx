@@ -66,7 +66,7 @@ const Services = () => {
       <Header />
       
 {/* Hero Section  */}
-<section className="relative min-h-[60vh] lg:min-h-[68vh] flex items-center overflow-hidden">
+<section className="relative min-h-[50vh] lg:min-h-[64vh] flex items-center overflow-hidden">
   <div
     aria-hidden
     className="absolute inset-0 bg-cover bg-center"
@@ -81,17 +81,15 @@ const Services = () => {
 
   {/* Content */}
   <div className="relative container mx-auto px-4 sm:px-6 lg:px-8">
-    <div className="max-w-4xl mx-auto text-center">
+    <div className="max-w-5xl mx-auto text-center">
       <h1 className="font-heading text-white drop-shadow-[0_2px_12px_rgba(0,0,0,0.5)] text-5xl lg:text-7xl font-bold mb-8 animate-fade-in">
-      All‑in‑One Solutions for Growth‑Driven Brands
+        From Vision to Global Reach      
       </h1>
       <p
-      className="text-xl lg:text-2xl text-white/90 leading-relaxed mb-6 animate-fade-in"
+      className="text-xl lg:text-3xl text-white/90 leading-relaxed mb-6 animate-fade-in"
       style={{ animationDelay: '0.15s' }}
       >
-      From global sourcing to market entry, we provide comprehensive distribution
-      solutions that help ambitious brands scale across international markets
-      with confidence.
+      We help ambitious brands scale confidently into new markets with strategy, sourcing, technology, and execution.  
       </p>
 
     </div>

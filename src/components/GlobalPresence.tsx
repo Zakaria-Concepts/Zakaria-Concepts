@@ -22,12 +22,12 @@ const GlobalPresence = () => {
   const stats = [
     { icon: MapPin, value: '50+', label: 'Distribution Centers' },
     { icon: Users, value: '500+', label: 'Global Partners' },
-    { icon: Clock, value: '24/7', label: 'Support Available' },
+    { icon: Clock, value: 'Full', label: 'Support Available' },
     { icon: Award, value: '99.5%', label: 'Delivery Success Rate' },
   ];
 
   return (
-    <section id="global" className="py-20 lg:py-32 bg-muted/30 relative overflow-hidden">
+    <section id="global" className="py-20 lg:py-22 bg-muted/30 relative overflow-hidden">
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-5">
         <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-4.0.3&auto=format&fit=crop&w=2340&q=80')] bg-cover bg-center"></div>

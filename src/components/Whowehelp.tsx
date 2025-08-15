@@ -4,7 +4,7 @@ import { Rocket, ShoppingBag, PackageSearch, Workflow } from "lucide-react";
 const clients = [
   {
     icon: Rocket,
-    title: "Startups launching new product lines",
+    title: "Startups  new product lines",
     copy: "From concept validation to market launch, we support your entire journey.",
   },
   {
@@ -25,7 +25,9 @@ const clients = [
 ];
 
 export const WhoWeHelp: React.FC = () => (
-  <section aria-labelledby="who-heading" className="relative py-11 lg:py-24 overflow-hidden bg-muted/30 shadow-xl">
+  // <section aria-labelledby="who-heading" className="relative py-35 lg:py-24 overflow-hidden bg-muted/30 shadow-xl">
+  <section aria-labelledby="who-heading" className="relative py-35 lg:py-5 overflow-hidden bg-muted/30 shadow-xl">
+
     {/* Subtle background */}
     <div className="absolute inset-0 -z-10 bg-gradient-to-br from-primary/5 via-background to-secondary/5" />
     <div className="absolute inset-0 -z-10 bg-[radial-gradient(70%_60%_at_50%_50%,rgba(0,0,0,0.06),transparent)]" />
@@ -38,9 +40,9 @@ export const WhoWeHelp: React.FC = () => (
         <h2 id="who-heading" className="mt-4 font-heading text-3xl lg:text-4xl font-bold text-foreground">
           Built for Founders, Operators, and Innovators
         </h2>
-        <p className="mt-4 text-lg text-muted-foreground">
+        {/* <p className="mt-4 text-lg text-muted-foreground">
           We work with ambitious brands and leaders ready to scale.
-        </p>
+        </p> */}
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 text-center">

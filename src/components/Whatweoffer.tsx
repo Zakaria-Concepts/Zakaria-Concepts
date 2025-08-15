@@ -9,7 +9,7 @@ const servicesSnapshot = [
   { icon: Package,       title: "White Label Products", description: "Ready‑to‑sell solutions, customized branding" },
   { icon: Globe,         title: "Distribution",         description: "Entry into U.S., GCC, LATAM markets" },
   { icon: ShoppingCart,  title: "Product Sales",        description: "Buy direct or collaborate on private label" },
-  { icon: Computer,      title: "Tech Advisory",        description: "E‑commerce, automation, integrations" },
+  { icon: Computer,      title: "Tech Advisory",        description: "E-commerce, AI Agentic solutions, Digital Marketing" },
 ];
 
 export const WhatWeOffer: React.FC = () => {

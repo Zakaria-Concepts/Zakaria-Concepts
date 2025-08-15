@@ -18,12 +18,12 @@ const Hero = () => {
       {/* Content */}
       <div className="relative z-10 text-center px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
         <h1 className="font-heading text-4xl sm:text-5xl lg:text-7xl font-bold text-foreground mb-6 fade-in">
-            <span className="whitespace-nowrap pb-2 block">Empowering Brands from</span>
-          <span className="block text-primary">Concept to Market</span>
+            <span className="whitespace-nowrap pb-2 block">Empowering Brands </span>
+          <span className="whitespace-nowrap text-primary">From Concept to Market</span>
         </h1>
-        
-        <p className="text-xl sm:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto slide-up">
-          From global sourcing and distribution to expert consulting and tech advisory, Zakaria Concepts turns bold ideas into growing, thriving businesses.
+
+        <p className="text-xl  sm:text-2xl text-white-foreground mb-8 max-w-2xl mx-auto slide-up">
+        We provide end-to-end solutions from sourcing and distribution to market entry strategies that help brands expand with confidence.
         </p>
 
         <Button

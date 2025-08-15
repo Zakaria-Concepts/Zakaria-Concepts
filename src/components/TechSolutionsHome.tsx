@@ -4,13 +4,13 @@ import { Button } from '@/components/ui/button';
 
 const TechSolutionsHome: React.FC = () => {
   return (
-    <section className="relative py-20 lg:py-24 overflow-hidden">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+    <section className="relative py-10 lg:py-10 overflow-hidden">
+      <div className="container mx-auto px-4 sm:px-6  ">
         <div className="max-w-7xl mx-auto">
           <div className="relative grid lg:grid-cols-2 min-h-[600px] rounded-3xl overflow-hidden shadow-2xl">
             
             {/* Left Side - Tech Solutions (Primary Color) */}
-            <div className="relative bg-gradient-to-br from-primary to-primary/80 text-primary-foreground p-8 lg:p-12 flex flex-col justify-center">
+            <div className="relative bg-gradient-to-br from-primary to-primary/80 text-primary-foreground p-2 lg:p-12 flex flex-col justify-center">
               {/* Background Pattern */}
               <div className="absolute inset-0 bg-[radial-gradient(circle_at_20%_30%,rgba(255,255,255,0.1),transparent_50%)]" />
               <div className="absolute inset-0 bg-[linear-gradient(135deg,transparent_30%,rgba(255,255,255,0.05)_50%,transparent_70%)]" />
@@ -21,11 +21,11 @@ const TechSolutionsHome: React.FC = () => {
                 </div>
                 
                 <h2 className="font-heading text-3xl lg:text-4xl font-bold mb-4">
-                  Tech Solutions That Scale
+                  E-commerce & Tech Solutions That Scale With You'
                 </h2>
-                
+
                 <p className="text-lg text-primary-foreground/90 leading-relaxed mb-8">
-                  Optimize your e-commerce, integrate automations, and launch products faster with our tech advisors.
+                  We help you launch or optimize your Shopify, ERP, fulfillment automation, and more.
                 </p>
 
                 <Button
@@ -66,7 +66,7 @@ const TechSolutionsHome: React.FC = () => {
                 </h3>
                 
                 <p className="text-lg text-accent-foreground/90 leading-relaxed mb-8">
-                  From the concept to the shelf, we help bring your vision to life.
+                  From concept to shelf, let’s bring your vision to life.
                 </p>
                 
                 <Button
@@ -75,7 +75,7 @@ const TechSolutionsHome: React.FC = () => {
                   className="bg-white text-accent hover:bg-white/90 px-8 py-3 group shadow-lg"
                   onClick={() => (window.location.href = '/contact')}
                 >
-                  Ready to Work With Us?
+                  Schedule a Discovery Call
                   <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform duration-200" />
                 </Button>
               </div>
