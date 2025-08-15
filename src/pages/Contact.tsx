@@ -48,7 +48,7 @@ const Contact = () => {
       description: 'Drop us a line anytime',
       contact: 'partnerships@zakariaconcepts.com',
       action: 'Send Email',
-      highlight: 'Usually respond within 2 hours'
+      highlight: 'Fast Response'
     },
     {
       icon: Phone,
@@ -56,7 +56,6 @@ const Contact = () => {
       description: 'Speak directly with our team',
       contact: '+1 (555) 123-4567',
       action: 'Call Now',
-      highlight: 'Available 24/7'
     },
     {
       icon: MessageCircle,
@@ -64,7 +63,7 @@ const Contact = () => {
       description: 'Quick chat for immediate questions',
       contact: '+1 (555) 987-6543',
       action: 'Start Chat',
-      highlight: 'Instant responses'
+      highlight: 'Fast Response'
     }
   ];
 
@@ -248,7 +247,7 @@ const Contact = () => {
 
                     <div className="flex items-center gap-2 text-sm text-muted-foreground">
                       <CheckCircle className="w-4 h-4 text-primary" />
-                      <span>We'll respond within 2 hours during business days</span>
+                      <span>We'll respond as soon as possible during business days</span>
                     </div>
                   </form>
                 </div>

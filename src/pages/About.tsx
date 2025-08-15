@@ -63,7 +63,9 @@ const About: React.FC = () => {
       description:
         'Quality fabrics and materials connecting global suppliers with regional markets.',
       image:
-        'https://images.unsplash.com/photo-1558969114-f0492f0dd19d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80',
+        '/assets/Generalphotos/textiles.jpg',
+      objectPosition: 'center 70%', // Move image vertically
+
     },
     {
       icon: Utensils,
