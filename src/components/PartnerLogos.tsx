@@ -2,7 +2,7 @@ import React from 'react';
 
 const logos = [
     { src: '/assets/CompanyLogos/galax.png', alt: 'Galax' },
-    { src: '/assets/CompanyLogos/stitch.png', alt: 'Stitch' },
+    { src: '/assets/CompanyLogos/stitch.png', alt: 'Stitchish' },
     { src: '/assets/logoalt.png', alt: 'Zakaria Concepts' },
 ];
 
@@ -16,7 +16,7 @@ const Track: React.FC = () => (
                     alt={l.alt}
                     loading="lazy"
                     className="
-                        h-10 sm:h-12 md:h-14 lg:h-16 w-auto object-contain
+                        h-24 sm:h-28 md:h-32 lg:h-36 w-auto object-contain
                         opacity-90 hover:opacity-100 transition
                         drop-shadow-[0_2px_8px_rgba(0,0,0,0.35)]
                         invert-[0] brightness-100
@@ -65,7 +65,7 @@ const PartnerLogosMarquee: React.FC = () => {
                 </div>
 
                 <noscript>
-                    <div className="mt-6 flex flex-wrap justify-center gap-12">
+                    <div className="mt- flex flex-wrap justify-center gap-12">
                         <Track />
                     </div>
                 </noscript>
