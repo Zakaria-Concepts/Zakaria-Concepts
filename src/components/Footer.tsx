@@ -6,19 +6,39 @@ const Footer = () => {
   const footerLinks = [
     {
       title: 'Company',
-      links: ['About Us', 'Services', 'Philosophy', 'Careers']
+      links: [
+        { name: 'About Us', href: '/about' },
+        { name: 'Services', href: '/services' },
+        { name: 'Philosophy', href: '/philosophy' },
+        { name: 'Careers', href: '/contact' }
+      ]
     },
     {
       title: 'Services',
-      links: ['Global Distribution', 'Logistics', 'Quality Assurance', 'Technology Solutions']
+      links: [
+        { name: 'Global Sourcing', href: '/services#global-sourcing' },
+        { name: 'White Label Solutions', href: '/services#white-label' },
+        { name: 'International Distribution', href: '/services#distribution' },
+        { name: 'Logistics Management', href: '/services#logistics' }
+      ]
     },
     {
       title: 'Support',
-      links: ['Contact Us', 'Documentation', 'Help Center', 'FAQ']
+      links: [
+        { name: 'Contact Us', href: '/contact' },
+        { name: 'Why Choose Us', href: '/services#why-choose-us' },
+        { name: 'Testimonials', href: '/services#testimonials' },
+        { name: 'FAQ', href: '/contact' }
+      ]
     },
     {
       title: 'Legal',
-      links: ['Terms & Conditions', 'Privacy Policy', 'Cookie Policy', 'Compliance']
+      links: [
+        { name: 'Terms & Conditions', href: '/legal#terms' },
+        { name: 'Privacy Policy', href: '/legal#privacy' },
+        { name: 'Cookie Policy', href: '/legal#cookies' },
+        { name: 'Compliance', href: '/legal#compliance' }
+      ]
     }
   ];
 
@@ -71,10 +91,10 @@ const Footer = () => {
                   {section.links.map((link, linkIndex) => (
                     <li key={linkIndex}>
                       <a 
-                        href="#" 
+                        href={link.href} 
                         className="text-muted-foreground hover:text-primary transition-colors duration-200 text-sm"
                       >
-                        {link}
+                        {link.name}
                       </a>
                     </li>
                   ))}

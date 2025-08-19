@@ -113,6 +113,7 @@ const Services: React.FC = () => {
             <Button
               size="lg"
               className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold px-7 sm:px-8 py-4 group"
+              onClick={() => window.location.href = '/contact'}
             >
               <Calendar className="w-5 h-5 mr-2" />
               Book a Free Strategy Call
@@ -123,7 +124,7 @@ const Services: React.FC = () => {
       </section>
 
       {/* SERVICES — mobile-first, alternates on lg via order classes */}
-      <section className="py-16 lg:py-24">
+      <section id="services" className="py-16 lg:py-24">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12 lg:mb-16">
             <h2 className="font-heading text-3xl lg:text-5xl font-bold text-foreground mb-4">
@@ -188,6 +189,7 @@ const Services: React.FC = () => {
                     <Button
                       variant="outline"
                       className="border-primary text-primary hover:bg-primary hover:text-primary-foreground group"
+                      onClick={() => window.location.href = '/contact'}
                     >
                       Learn More
                       <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform motion-reduce:transition-none" />
@@ -201,7 +203,7 @@ const Services: React.FC = () => {
       </section>
 
       {/* WHY CHOOSE US — compact, responsive grid */}
-      <section className="py-16 lg:py-24 bg-muted/30">
+      <section id="why-choose-us" className="py-16 lg:py-24 bg-muted/30">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="font-heading text-3xl lg:text-4xl font-bold text-foreground mb-4">
@@ -227,7 +229,11 @@ const Services: React.FC = () => {
           </div>
 
           <div className="text-center mt-10">
-            <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground group">
+            <Button 
+              size="lg" 
+              className="bg-primary hover:bg-primary/90 text-primary-foreground group"
+              onClick={() => window.location.href = '/contact'}
+            >
               <Calendar className="w-5 h-5 mr-2" />
               Schedule Your Consultation
               <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform motion-reduce:transition-none" />
@@ -237,7 +243,7 @@ const Services: React.FC = () => {
       </section>
 
       {/* TESTIMONIALS — 1col → 2col */}
-      <section className="py-16 lg:py-24">
+      <section id="testimonials" className="py-16 lg:py-24">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="font-heading text-3xl lg:text-4xl font-bold text-foreground mb-4">
@@ -285,12 +291,21 @@ const Services: React.FC = () => {
               Startup or established brand—we deliver the expertise, infrastructure, and network to make it happen.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold px-8 py-4 group">
+              <Button 
+                size="lg" 
+                className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold px-8 py-4 group"
+                onClick={() => window.location.href = '/contact'}
+              >
                 <Calendar className="w-5 h-5 mr-2" />
                 Book a Free Strategy Call
                 <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform motion-reduce:transition-none" />
               </Button>
-              <Button variant="outline" size="lg" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground px-8 py-4">
+              <Button 
+                variant="outline" 
+                size="lg" 
+                className="border-primary text-primary hover:bg-primary hover:text-primary-foreground px-8 py-4"
+                onClick={() => window.location.href = '/contact'}
+              >
                 Download Our Brochure
               </Button>
             </div>
