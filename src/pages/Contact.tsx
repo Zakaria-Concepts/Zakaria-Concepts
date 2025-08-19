@@ -275,9 +275,9 @@ const Contact = () => {
                           <div className="flex-1">
                             <div className="flex items-center gap-2 mb-2">
                               <h4 className="font-semibold text-foreground">{method.title}</h4>
-                              <Badge variant="secondary" className="text-xs">
+                              {/* <Badge variant="secondary" className="text-xs">
                                 {method.highlight}
-                              </Badge>
+                              </Badge> */}
                             </div>
                             <p className="text-sm text-muted-foreground mb-2">{method.description}</p>
                             <p className="font-medium text-primary mb-2">{method.contact}</p>

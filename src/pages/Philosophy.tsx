@@ -126,25 +126,25 @@ const Philosophy = () => {
       icon: Globe,
       title: 'Value-Driven Growth',
       description: 'We believe sustainable business growth comes from creating genuine value for manufacturers, distributors, and end consumers.',
-      image: '/assets/bg.png'
+      image: 'https://images.pexels.com/photos/164636/pexels-photo-164636.jpeg'
     },
     {
       icon: Lightbulb,
       title: 'Innovation Mindset',
       description: 'Embracing new technologies, processes, and ideas to stay ahead of market changes and exceed partner expectations.',
-      image: '/assets/bg2.png'
+      image: 'https://images.pexels.com/photos/212286/pexels-photo-212286.jpeg'
     },
     {
       icon: Handshake,
       title: 'Partnership Philosophy',
       description: 'Long-term success is built on mutual trust, shared goals, and collaborative problem-solving with all our partners.',
-      image: '/assets/pexels-maxfrancis-2246476.jpg'
+      image: 'https://images.pexels.com/photos/3184613/pexels-photo-3184613.jpeg'
     },
     {
       icon: TrendingUp,
       title: 'Adaptive Excellence',
       description: 'Continuously evolving our strategies and capabilities to meet the changing needs of global markets and industries.',
-      image: '/assets/bg.png'
+      image: 'https://images.pexels.com/photos/922205/pexels-photo-922205.jpeg'
     }
   ];
 
@@ -355,10 +355,7 @@ const Philosophy = () => {
                     </div>
                     <h3 className="text-3xl lg:text-4xl font-bold text-foreground mb-6">{item.title}</h3>
                     <p className="text-lg text-muted-foreground leading-relaxed mb-8">{item.description}</p>
-                    <Button variant="outline" className="border-primary text-primary hover:bg-primary/10">
-                      Learn More
-                      <ArrowRight className="w-4 h-4 ml-2" />
-                    </Button>
+                    
                   </div>
                   
                   <div className="flex-1">

@@ -62,10 +62,8 @@ const About: React.FC = () => {
       name: 'Textiles',
       description:
         'Quality fabrics and materials connecting global suppliers with regional markets.',
-      image:
-        '/assets/Generalphotos/textiles.jpg',
+      image: '/assets/Generalphotos/textiles.jpg',
       objectPosition: 'center 70%', // Move image vertically
-
     },
     {
       icon: Utensils,
@@ -74,6 +72,7 @@ const About: React.FC = () => {
         'Nutritious products that promote wellness across diverse communities.',
       image:
         'https://images.unsplash.com/photo-1490645935967-10de6ba17061?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80',
+      objectPosition: 'center 60%', // Ajusta la posición vertical aquí si lo necesitas
     },
     {
       icon: Zap,
@@ -81,7 +80,8 @@ const About: React.FC = () => {
       description:
         'Innovative solutions bridging the gap between cutting-edge manufacturers and end users.',
       image:
-        'https://images.unsplash.com/photo-1518709268805-4e9042af2176?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80',
+        'https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg',
+      objectPosition: 'center 50%', // Ajusta la posición vertical aquí si lo necesitas
     },
     {
       icon: Heart,
@@ -89,7 +89,8 @@ const About: React.FC = () => {
       description:
         'Premium beauty and wellness products that enhance daily life.',
       image:
-        'https://images.unsplash.com/photo-1596755389378-c31d21fd1273?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80',
+        'https://images.pexels.com/photos/286951/pexels-photo-286951.jpeg',
+      objectPosition: 'center 40%', // Ajusta la posición vertical aquí si lo necesitas
     },
   ];
 
@@ -98,19 +99,19 @@ const About: React.FC = () => {
       name: 'North America',
       description:
         'Strategic operations across the United States and Canada, serving diverse markets with precision.',
-      flag: '🇺🇸🇨🇦',
+      flag: 'USCA',
       details: 'Major hubs in New York, Toronto, and Los Angeles',
       image:
-        'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80',
+        'https://images.pexels.com/photos/1239162/pexels-photo-1239162.jpeg',
     },
     {
       name: 'Middle East',
       description:
         'Deep regional expertise connecting manufacturers with growing markets across the Middle East.',
-      flag: '🌍',
+      flag: 'GCC',
       details: 'Regional offices in Dubai, Qatar, and Kuwait',
       image:
-        'https://images.unsplash.com/photo-1512453979798-5ea266f8880c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80',
+        'https://images.pexels.com/photos/33500474/pexels-photo-33500474.jpeg',
     },
   ];
 

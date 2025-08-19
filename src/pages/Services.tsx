@@ -14,7 +14,7 @@ const Services: React.FC = () => {
       icon: Globe,
       title: 'Global Sourcing & Procurement',
       description: 'Vetted supplier network across industries ensuring cost‑efficient, quality‑assured procurement.',
-      image: 'https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80',
+      image: 'https://images.pexels.com/photos/8828624/pexels-photo-8828624.jpeg',
       bullets: ['Competitive supplier pricing', 'Verified manufacturing partners', 'Ethical sourcing practices'],
     },
     {
@@ -28,7 +28,7 @@ const Services: React.FC = () => {
       icon: MapPin,
       title: 'International Distribution',
       description: 'Seamless entry into USA, GCC, and LATAM with local compliance, partnerships, and optimized inventory.',
-      image: 'https://images.unsplash.com/photo-1611273426858-450d8e3c9fce?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80',
+      image: 'https://images.pexels.com/photos/1427107/pexels-photo-1427107.jpeg',
       bullets: ['Multi‑region compliance', 'Local partnerships', 'Strategic inventory positioning'],
     },
     {
@@ -56,7 +56,7 @@ const Services: React.FC = () => {
       icon: Zap,
       title: 'Technology & E‑Commerce',
       description: 'Scalable digital infrastructure to support growth.',
-      image: 'https://images.unsplash.com/photo-1518186285589-2f7649de83e0?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80',
+      image: '/assets/Generalphotos/ecommerce.png',
       bullets: ['Shopify stores', 'ERP integration', 'Automation & dashboards'],
     },
   ];
