@@ -188,15 +188,33 @@ const journeyCarousel: JourneyItem[] = [
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button size="lg" className="animate-scale-in">
+              <Button 
+                size="lg" 
+                className="animate-scale-in"
+                onClick={() => {
+                  document.getElementById("journey")?.scrollIntoView({ 
+                    behavior: "smooth", 
+                    block: "start" 
+                  });
+                }}
+              >
                 Our Story <ArrowRight className="ml-2 w-4 h-4" />
               </Button>
+
+              
               <Button
                 variant="outline"
                 size="lg"
                 className="animate-scale-in"
                 style={{ animationDelay: '0.2s' }}
+                                onClick={() => {
+                  document.getElementById("team")?.scrollIntoView({ 
+                    behavior: "smooth", 
+                    block: "start" 
+                  });
+                }}
               >
+
                 Meet Our Team
               </Button>
             </div>
@@ -366,7 +384,9 @@ const journeyCarousel: JourneyItem[] = [
 
 
       {/* Our Journey – Era Bands */}
-      <JourneyCarousel items={journeyCarousel} />
+      <section id="journey" className="scroll-mt-20">
+        <JourneyCarousel items={journeyCarousel} />
+      </section>
 
 
       {/* Partner Logos */}
@@ -376,7 +396,9 @@ const journeyCarousel: JourneyItem[] = [
 
 
       {/* Our Team */}
+      <section id="team" className="scroll-mt-20">
       <ZakariaTeam />
+      </section>
 
       {/* Closing CTA */}
       <section className="py-20 lg:py-32 relative overflow-hidden">
@@ -399,7 +421,9 @@ const journeyCarousel: JourneyItem[] = [
               markets across the globe
             </p>
             <div className="flex flex-col sm:flex-row gap-6 justify-center">
-              <Button size="lg" className="animate-scale-in text-lg px-8 py-4">
+              <Button size="lg" className="animate-scale-in text-lg px-8 py-4" 
+                onClick={() => (window.location.href = '/Contact')}
+              >
                 Partner With Us <ArrowRight className="ml-2 w-5 h-5" />
               </Button>
               <Button
@@ -407,6 +431,7 @@ const journeyCarousel: JourneyItem[] = [
                 size="lg"
                 className="animate-scale-in text-lg px-8 py-4"
                 style={{ animationDelay: '0.2s' }}
+                onClick={() => (window.location.href = '/Services')}
               >
                 Explore Our Services
               </Button>

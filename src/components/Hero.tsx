@@ -84,7 +84,7 @@ const Hero = () => {
                 border-white/30 text-white hover:bg-white/10
                 px-7 sm:px-8 py-4 text-base sm:text-lg rounded-full
               "
-              onClick={() => (window.location.href = '/Services')}
+              onClick={() => (window.location.href = '/Contact')}
             >
               Our Services
             </Button>

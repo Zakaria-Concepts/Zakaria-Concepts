@@ -419,13 +419,20 @@ const Philosophy = () => {
                 Let's start a conversation about your goals and how we can help achieve them.
               </p>
               <div className="flex flex-col sm:flex-row gap-6 justify-center">
-                <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-4 text-lg">
-                  Partner With Us
-                  <ArrowRight className="w-5 h-5 ml-2" />
-                </Button>
-                <Button variant="outline" size="lg" className="border-primary text-primary hover:bg-primary/10 px-8 py-4 text-lg">
-                  Explore Our Services
-                </Button>
+              <Button size="lg" className="animate-scale-in text-lg px-8 py-4" 
+                onClick={() => (window.location.href = '/Contact')}
+              >
+                Partner With Us <ArrowRight className="ml-2 w-5 h-5" />
+              </Button>
+              <Button
+                variant="outline"
+                size="lg"
+                className="animate-scale-in text-lg px-8 py-4"
+                style={{ animationDelay: '0.2s' }}
+                onClick={() => (window.location.href = '/Services')}
+              >
+                Explore Our Services
+              </Button>
               </div>
             </div>
           </div>

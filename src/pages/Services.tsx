@@ -96,7 +96,7 @@ const Services: React.FC = () => {
           className="absolute inset-0 bg-cover bg-center"
           style={{
             backgroundImage:
-              "url('https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80')",
+              "url('https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg')",
           }}
         />
         <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/55 to-black/35" />
