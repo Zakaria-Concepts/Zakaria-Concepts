@@ -412,7 +412,7 @@ const Philosophy = () => {
             <div className="bg-gradient-to-r from-primary/10 via-primary/5 to-primary/10 rounded-3xl p-12 lg:p-16 animate-fade-in">
               <Globe className="w-16 h-16 text-primary mx-auto mb-8" />
               <h2 className="font-heading text-4xl lg:text-5xl font-bold text-foreground mb-6">
-                Let's Put Our Philosophy to Work for You
+                Let’s Bring Our Philosophy to Life Together
               </h2>
               <p className="text-xl text-muted-foreground mb-12 leading-relaxed">
                 Ready to experience how our values, approach, and strategic thinking can transform your business? 

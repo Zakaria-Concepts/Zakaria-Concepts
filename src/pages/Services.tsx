@@ -14,14 +14,14 @@ const Services: React.FC = () => {
       icon: Globe,
       title: 'Global Sourcing & Procurement',
       description: 'Vetted supplier network across industries ensuring cost‑efficient, quality‑assured procurement.',
-      image: 'https://images.pexels.com/photos/8828624/pexels-photo-8828624.jpeg',
+      image: 'https://images.pexels.com/photos/9415609/pexels-photo-9415609.jpeg',
       bullets: ['Competitive supplier pricing', 'Verified manufacturing partners', 'Ethical sourcing practices'],
     },
     {
       icon: Package,
       title: 'White Label & Private Label Solutions',
       description: 'Bring products to market faster with ready‑to‑sell solutions under your brand.',
-      image: 'https://images.unsplash.com/photo-1553062407-98eeb64c6a62?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80',
+      image: 'https://images.pexels.com/photos/7795867/pexels-photo-7795867.jpeg',
       bullets: ['Premium textiles', 'Organic supplements', 'Smart home devices', 'Personal care products'],
     },
     {
@@ -49,7 +49,7 @@ const Services: React.FC = () => {
       icon: Shield,
       title: 'Quality Assurance & Compliance',
       description: 'Rigorous quality control to meet international standards.',
-      image: 'https://images.unsplash.com/photo-1551836022-deb4988cc6c0?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80',
+      image: 'https://images.pexels.com/photos/2977547/pexels-photo-2977547.jpeg',
       bullets: ['Pre‑shipment inspections', 'Product testing & certification', 'Ongoing quality monitoring'],
     },
     {
@@ -96,7 +96,7 @@ const Services: React.FC = () => {
           className="absolute inset-0 bg-cover bg-center"
           style={{
             backgroundImage:
-              "url('https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg')",
+              "url('https://images.pexels.com/photos/335393/pexels-photo-335393.jpeg')",
           }}
         />
         <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/55 to-black/35" />

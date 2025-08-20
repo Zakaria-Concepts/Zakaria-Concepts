@@ -10,7 +10,7 @@ const Footer = () => {
         { name: 'About Us', href: '/about' },
         { name: 'Services', href: '/services' },
         { name: 'Philosophy', href: '/philosophy' },
-        { name: 'Careers', href: '/contact' }
+        // { name: 'Careers', href: '/contact' }
       ]
     },
     {
@@ -28,7 +28,7 @@ const Footer = () => {
         { name: 'Contact Us', href: '/contact' },
         { name: 'Why Choose Us', href: '/services#why-choose-us' },
         { name: 'Testimonials', href: '/services#testimonials' },
-        { name: 'FAQ', href: '/contact' }
+        // { name: 'FAQ', href: '/contact' }
       ]
     },
     {

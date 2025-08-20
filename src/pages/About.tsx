@@ -71,7 +71,7 @@ const About: React.FC = () => {
       description:
         'Nutritious products that promote wellness across diverse communities.',
       image:
-        'https://images.unsplash.com/photo-1490645935967-10de6ba17061?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80',
+        'https://images.pexels.com/photos/7852449/pexels-photo-7852449.jpeg',
       objectPosition: 'center 60%', // Ajusta la posición vertical aquí si lo necesitas
     },
     {
@@ -100,7 +100,7 @@ const About: React.FC = () => {
       description:
         'Strategic operations across the United States and Canada, serving diverse markets with precision.',
       flag: 'USCA',
-      details: 'Major hubs in New York, Toronto, and Los Angeles',
+      details: 'Regional Partners in Chicago, Illinois and Texas',
       image:
         'https://images.pexels.com/photos/1239162/pexels-photo-1239162.jpeg',
     },
@@ -109,7 +109,7 @@ const About: React.FC = () => {
       description:
         'Deep regional expertise connecting manufacturers with growing markets across the Middle East.',
       flag: 'GCC',
-      details: 'Regional offices in Dubai, Qatar, and Kuwait',
+      details: 'Regional partners in Dubai, Qatar and Pakistan',
       image:
         'https://images.pexels.com/photos/33500474/pexels-photo-33500474.jpeg',
     },
@@ -164,7 +164,7 @@ const journeyCarousel: JourneyItem[] = [
           className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-20"
           style={{
             backgroundImage:
-              "url('https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80')",
+              "url('https://images.pexels.com/photos/221047/pexels-photo-221047.jpeg')",
           }}
         />
         <div className="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8 text-center">
