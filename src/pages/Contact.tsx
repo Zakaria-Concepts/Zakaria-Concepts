@@ -54,14 +54,14 @@ const Contact = () => {
       icon: Phone,
       title: 'Call Us',
       description: 'Speak directly with our team',
-      contact: '+1 (555) 123-4567',
+      contact: '+57 (324) 3671521',
       action: 'Call Now',
     },
     {
       icon: MessageCircle,
       title: 'WhatsApp',
       description: 'Quick chat for immediate questions',
-      contact: '+1 (555) 987-6543',
+      contact: '+57 (324) 3671521',
       action: 'Start Chat',
       highlight: 'Fast Response'
     }
