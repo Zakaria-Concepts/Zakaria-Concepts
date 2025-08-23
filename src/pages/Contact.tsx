@@ -46,7 +46,7 @@ const Contact = () => {
       icon: Mail,
       title: 'Email Us',
       description: 'Drop us a line anytime',
-      contact: 'partnerships@zakariaconcepts.com',
+      contact: 'infozakariaconcepts@gmail.com',
       action: 'Send Email',
       highlight: 'Fast Response'
     },
@@ -281,9 +281,9 @@ const Contact = () => {
                             </div>
                             <p className="text-sm text-muted-foreground mb-2">{method.description}</p>
                             <p className="font-medium text-primary mb-2">{method.contact}</p>
-                            <Button variant="outline" size="sm" className="text-primary border-primary hover:bg-primary/10">
+                            {/* <Button variant="outline" size="sm" className="text-primary border-primary hover:bg-primary/10">
                               {method.action}
-                            </Button>
+                            </Button> */}
                           </div>
                         </div>
                       </CardContent>
