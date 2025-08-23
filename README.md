@@ -1,6 +1,6 @@
-# Zackaria Company
+# Zackaria Concepts
 
-Welcome to the Zackaria Company web project!
+Welcome to the Zackaria Concepts web!
 
 ## Table of Contents
 
@@ -13,7 +13,7 @@ Welcome to the Zackaria Company web project!
 
 ## About
 
-Zackaria Company is a web application designed to showcase our services and solutions. This project aims to deliver a modern, responsive, and user-friendly experience.
+Zackaria Concepts is a web application designed to showcase our services and solutions. This project aims to deliver a modern, responsive, and user-friendly experience.
 
 ## Features
 
@@ -26,11 +26,11 @@ Zackaria Company is a web application designed to showcase our services and solu
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/Zackaria-Company-0.0.git
+    git clone https://github.com/your-username/Zackaria-Concepts.git
     ```
 2. Navigate to the project directory:
     ```bash
-    cd Zackaria-Company-0.0
+    cd Zackaria-Concepts-0.0
     ```
 3. Install dependencies:
     ```bash
@@ -48,9 +48,6 @@ Zackaria Company is a web application designed to showcase our services and solu
 - JavaScript
 - [Add frameworks/libraries as needed]
 
-## Contributing
-
-Contributions are welcome! Please open an issue or submit a pull request.
 
 ## License
 
