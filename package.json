@@ -7,6 +7,7 @@
   "scripts": {
     "predeploy": "vite build --base=/ && cp dist/index.html dist/404.html && touch dist/.nojekyll",
     "deploy": "gh-pages -d dist",
+    "deploy:clean": "gh-pages-clean",
     "dev": "vite",
     "build": "vite build",
     "build:dev": "vite build --mode development",
